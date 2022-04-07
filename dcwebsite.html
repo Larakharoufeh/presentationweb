@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Design Context</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="dcweb.css" />
+		<noscript><link rel="stylesheet" href="dcweb.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">MICROCHIP</a></li>
+							<li><a href="#two">THE FLAME / A.L.I.E.2.0</a></li>
+							<li><a href="#three">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+       <section>
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>DESIGN CONTEXT</h1>
+							<p>Researching and imaginatively analyzing the flame 2.0 from The 100 and exploring the Bioteq microchip implant.
+							</p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+        </section>
+</style>
+</head>
+<body>
+  <section id="one" class="wrapper style1 fullscreen fade-up">
+    <div class="inner">
+<h2 style="text-align:center">Presentation Slideshows</h2>
+
+
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="images/1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="images/2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="images/3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="images/4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="images/5.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+<section id="two" class="wrapper style1 fullscreen fade-up">
+  <div class="inner">
+
+
+<div class="slideshow-container">
+  <div class="mySlides2">
+    <img src="images/6.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="images/7.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="images/8.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="images/9.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="images/10.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+
+<script>
+let slideIndex = [1,1];
+let slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+<section id="three" class="wrapper style1 fade-up">
+  <div class="inner">
+    
+    <h2>Learn More</h2>
+    <p>Email us your questions!</p>
+    
+      
+          <li>
+      
+            <a href="#">Lara2.kharoufeh@live.uwe.ac.uk</a>
+  
+          </li>
+            <li>
+      
+              <a href="#">Laura2.robbie@live.uwe.ac.uk</a>
+    
+            </li>
+            
+      </section>
+
+</body>
+</html> 
